@@ -16,7 +16,9 @@ const Body = () => {
 
     }
     return (
+        // main continar 
         <div className="row g-0">
+            {/* actor section  */}
             <div className="col-sm-6 col-md-9 actors-container">
                 {
                     actor.map(actor => <Actor
@@ -25,6 +27,7 @@ const Body = () => {
                          handleAddToCart={handleAddToCart}/>)
                 }
             </div>
+            {/* cart section  */}
             <div className="col-6 col-md-3 cart-section">
                 <Cart cart={cart}/>
             </div>

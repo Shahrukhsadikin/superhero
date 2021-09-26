@@ -6,7 +6,9 @@ import Body from './component/Body/Body';
 function App() {
   return (
     <div >
+      {/* header component  */}
     <Header/>
+    {/* body component  */}
     <Body/>
     
     </div>
