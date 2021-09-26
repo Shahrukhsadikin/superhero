@@ -6,7 +6,7 @@ const Header = () => {
         <div className="">
                     <div className="headers">
                         <h1><samp className="bd">BD</samp>.movie</h1>
-                        <p>Name:lela-mojnu</p>
+                        <p>choose all actor that you want your upcomin drama</p>
                         <h5>Total budget:$100 Million</h5>
                     </div>
         </div>
